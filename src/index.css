@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +12,81 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* Navbar */
+./* Navbar Styling */
+.navbar {
+  background-color: #358ade; /* Dark background for a professional look */
+  padding: 10px 20px; /* Padding around the navbar */
+  box-shadow: 0 4px 8px rgba(157, 169, 228, 0.2); /* Add a subtle shadow */
+}
+
+/* Navbar Links */
+.navbar-nav li a {
+  font-size: 16px;
+  font-weight: 500; /* Slightly bold for better readability */
+  color: #358ade; /* Light color for contrast against the dark background */
+  padding: 8px 15px; /* Adjust padding for better spacing */
+  text-transform: uppercase; /* Professional uppercase styling */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Hover Effect for Links */
+.navbar-nav li a:hover, 
+.navbar-nav li a.active {
+  color: #358ade; /* Gold-like highlight color */
+  background-color: #4e4aa1; /* Slightly darker background */
+  border-radius: 5px; /* Add rounded corners for links */
+}
+
+/* Brand Name Styling */
+.navbar-brand {
+  color: #358ade; /* Highlight color for the brand name */
+  font-size: 24px; /* Larger font size for prominence */
+  font-weight: bold;
+  text-transform: uppercase; /* Uppercase for branding consistency */
+  letter-spacing: 2px; /* Add spacing between letters */
+  transition: color 0.3s ease;
+}
+
+/* Brand Name Hover Effect */
+.navbar-brand:hover {
+  color: #4e4aa1; /* Change brand color on hover */
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+  border: none; /* Remove border for a cleaner look */
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='%23ffffff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.5 12a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13zm0-5a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13zm0-5a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13z'/%3E%3C/svg%3E"); /* White hamburger icon */
+}
+
+/* Alignment and Spacing */
+.navbar-collapse {
+  justify-content: space-between; /* Spread elements across the navbar */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center; /* Vertically center the nav items */
+}
+
+
+/* Card */
+.card{
+  transition: all 0.5s ease;
+}
+.card:hover{
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Product */
+.product img {
+  transition: all 0.5s ease;
+}
+.product img:hover{
+  transform: scale(1.1);
+}
+
